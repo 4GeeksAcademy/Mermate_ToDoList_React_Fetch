@@ -1,4 +1,48 @@
+body{
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
 
+ul{
+    padding: 0;
+    margin-bottom: 0;
+}
+
+ul li{
+    border: 1px solid lightgray;
+    list-style: none;
+    padding:5px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(235, 177, 220);
+    font-size:70px;   
+}
+
+input{
+    border:none;
+    outline: none;
+    width: 100%;
+    font-size: 30px;       
+}
+
+span{
+    float: right;
+}
+
+button{
+    margin-right: 20px;
+     border:none ;
+     background-color: white;
+     color:rgb(235, 177, 220);
+      }
+    
+.bottomList{
+    font-size:large;
+    padding-left: 5px;
+}
 /* 
 
     You can write your own styles here...
