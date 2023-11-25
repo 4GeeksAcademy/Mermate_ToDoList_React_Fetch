@@ -32,7 +32,7 @@ const ToDoList = () => {
             fetch("https://playground.4geeks.com/apis/fake/todos/user/Mermate")
             .then(response => response.json())
             .then(data =>{
-                console.log(data);
+                //console.log(data);
                 setToDos(data)
 
             })
@@ -41,7 +41,7 @@ const ToDoList = () => {
 
 //3  create a function to update tasks (PUT)
          function  updtateTask(){
-            console.log("createTask")
+            //console.log("createTask")
 
             const datos =  toDos.concat({
                 "label": inputValue, 
@@ -90,9 +90,9 @@ const ToDoList = () => {
         }
       
  
-  //3 UseEffect para obtener info en cuanto se cargue el componente
+  //3 UseEffect to get info as soon as the page loads
         useEffect (()=>{
-            console.log( "se cargó el componente")
+            //console.log( "se cargó el componente")
             createUser()
             getTasKs()
             
